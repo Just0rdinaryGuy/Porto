@@ -1,4 +1,4 @@
-# Just0rdinaryGuy.dev - Portofolio & Resume 
+# Just0rdinaryGuy - Portofolio & Resume 
 
 Yellow! 👋 Selamat datang di repository portofolio digital eug. Project ini dibikin buat nunjukin karya-karya, skill, dan perjalanan karir eug sebagai IT Enthusiast. Semuanya dibangun pake teknologi web modern biar performanya ngebut dan tampilannya kece.
 
