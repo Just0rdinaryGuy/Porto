@@ -1,12 +1,10 @@
 # Just0rdinaryGuy.dev - Portofolio & Resume 
 
-![Portfolio Banner](public/assets/img/bges_dashboard.png) <!-- Gambar pemanis, ambil dari salah satu project -->
-
 Yellow! 👋 Selamat datang di repository portofolio digital eug. Project ini dibikin buat nunjukin karya-karya, skill, dan perjalanan karir eug sebagai IT Enthusiast. Semuanya dibangun pake teknologi web modern biar performanya ngebut dan tampilannya kece.
 
 ## 🚀 Cek Website Live-nya
 
-**[Mampir ke Portofolio](https://just0rdinaryguy.github.io/Porto/)**
+**[Mampir ke Portofolio](https://just0rdinaryguy.github.io/-/)**
 
 ## ✨ Fitur-Fitur 
 
