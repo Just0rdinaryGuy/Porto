@@ -18,7 +18,7 @@ export const Hero = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h2 className="text-sm md:text-md uppercase tracking-widest text-primary font-semibold mb-4">
-                        Fullstack Developer
+                        IT Enthusiast
                     </h2>
                 </motion.div>
 
