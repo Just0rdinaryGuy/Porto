@@ -4,7 +4,7 @@ import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import { ProjectCard } from "@/components/project-card";
 import { Separator } from "@/components/ui/separator";
-import { Github, Mail } from "lucide-react";
+import { Github, Mail, Send } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -61,6 +61,9 @@ export default function Home() {
             <Link href="https://github.com/Just0rdinaryGuy" target="_blank" className="p-3 rounded-full bg-zinc-900 border border-zinc-800 hover:border-primary hover:text-primary transition-all group">
               <Github className="w-6 h-6" />
             </Link>
+            <Link href="https://t.me/exprimb" target="_blank" className="p-3 rounded-full bg-zinc-900 border border-zinc-800 hover:border-primary hover:text-primary transition-all group">
+              <Send className="w-6 h-6" />
+            </Link>
             <Link href="mailto:exprimbara@gmail.com" className="p-3 rounded-full bg-zinc-900 border border-zinc-800 hover:border-primary hover:text-primary transition-all group">
               <Mail className="w-6 h-6" />
             </Link>
@@ -69,7 +72,7 @@ export default function Home() {
           <Separator className="bg-zinc-900 mb-8" />
 
           <p className="text-sm text-zinc-600">
-            © 2024 - {new Date().getFullYear()} Excel Prima Bara (Just0rdinaryGuy). <br className="md:hidden" />
+            © 2024 - {new Date().getFullYear()} Just0rdinaryGuy. <br className="md:hidden" />
             Dibuat dengan <span className="text-zinc-500 font-medium">Next.js</span> & <span className="text-zinc-500 font-medium">Shadcn/ui</span>.
           </p>
         </div>
