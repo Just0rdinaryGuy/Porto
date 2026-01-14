@@ -12,7 +12,7 @@ Yellow! 👋 Selamat datang di repository portofolio digital eug. Project ini di
 
 - **Tampilan Modern**: Pake **Next.js 15** dan **Shadcn/ui**, jadi desainnya responsif, rapi, dan enak dilihat di HP maupun laptop.
 - **Pamer Project**: Halaman detail project yang lengkap banget, ada deskripsi, tech stack, sampai galeri foto.
-- **Resume Interaktif**: Gak perlu download PDF ribet-ribet, resume gue bisa langsung dilihat di website (terintegrasi sama Canva/PDF).
+- **Resume Interaktif**: Gak perlu download PDF ribet-ribet, resume eug bisa langsung dilihat di website (terintegrasi sama Canva/PDF).
 - **Bahasa Santai**: Kontennya pake Bahasa Indonesia yang luwes, biar bacanya gak kaku kayak baca koran.
 - **Dark Mode**: Aman buat mata kalian yang suka begadang (mode gelap udah jadi standar lah ya).
 - **Auto Deploy**: Hostingnya di **GitHub Pages**, deploy-nya otomatis pake GitHub Actions. Canggih kan?
