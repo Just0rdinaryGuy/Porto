@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { getImagePath } from "@/lib/utils"
 
 interface ProjectCarouselProps {
     images: string[]
@@ -37,7 +38,7 @@ export function ProjectCarousel({ images, title }: ProjectCarouselProps) {
                     className="relative w-full h-full"
                 >
                     <Image
-                        src={images[currentIndex]}
+                        src={getImagePath(images[currentIndex])}
                         alt={`${title} - screenshot ${currentIndex + 1}`}
                         fill
                         className="object-contain"

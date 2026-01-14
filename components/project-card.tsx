@@ -3,6 +3,8 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { cn, getImagePath } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import { Project } from "@/lib/projects";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +23,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             <Card className="overflow-hidden border-zinc-800 bg-zinc-900/50 hover:bg-zinc-900 transition-colors group h-full flex flex-col">
                 <div className="relative aspect-video overflow-hidden">
                     <Image
-                        src={project.image}
+                        src={getImagePath(project.image)}
                         alt={project.title}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-110"
