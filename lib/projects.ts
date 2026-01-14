@@ -58,6 +58,7 @@ export const allProjects: Project[] = [
         date: "2024-03-20",
         image: "/assets/img/bges_dashboard.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
+            "/assets/img/BGES_login.png",
             "/assets/img/BGES1.png",
             "/assets/img/BGES2.png",
             "/assets/img/BGES3.png",
@@ -124,8 +125,8 @@ export const allProjects: Project[] = [
         date: "2024-04-10",
         image: "/assets/img/jejak_kita.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
-            "/assets/img/jejak-dashboard.png",
-            "/assets/img/jejak-list.png"
+            "/assets/img/JJK_login.png",
+            "/assets/img/JJK1.png",
         ],
         tags: ["Vue.js 3", "Python (FastAPI)", "Leaflet.js", "D3.js", "MongoDB"],
         // repositoryUrl: "", // Private
