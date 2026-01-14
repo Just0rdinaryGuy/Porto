@@ -1,4 +1,4 @@
-# Just0rdinaryGuy.dev - Portofolio & Resume Eksis
+# Just0rdinaryGuy.dev - Portofolio & Resume 
 
 ![Portfolio Banner](public/assets/img/bges_dashboard.png) <!-- Gambar pemanis, ambil dari salah satu project -->
 
@@ -13,13 +13,11 @@ Yellow! 👋 Selamat datang di repository portofolio digital eug. Project ini di
 - **Tampilan Modern**: Pake **Next.js 15** dan **Shadcn/ui**, jadi desainnya responsif, rapi, dan enak dilihat di HP maupun laptop.
 - **Pamer Project**: Halaman detail project yang lengkap banget, ada deskripsi, tech stack, sampai galeri foto.
 - **Resume Interaktif**: Gak perlu download PDF ribet-ribet, resume eug bisa langsung dilihat di website (terintegrasi sama Canva/PDF).
-- **Bahasa Santai**: Kontennya pake Bahasa Indonesia yang luwes, biar bacanya gak kaku kayak baca koran.
-- **Dark Mode**: Aman buat mata kalian yang suka begadang (mode gelap udah jadi standar lah ya).
-- **Auto Deploy**: Hostingnya di **GitHub Pages**, deploy-nya otomatis pake GitHub Actions. Canggih kan?
+- **Dark Mode**: Aman buat mata kalian yang suka ngalong (mode gelap udah jadi standar lah ya).
 
-## 🛠️ Sedang Memasak di Dapur (Tech Stack)
+## 🛠️ Alat Masak di Dapur (Tech Stack)
 
-Ini alat-alat tempur yang gue pake buat bangun web ini:
+Ini alat-alat tempur yang eug pake buat bangun web ini:
 
 - **Framework**: [Next.js 15 (App Router)](https://nextjs.org/) - Biar ngebut dan SEO friendly.
 - **Bahasa**: [TypeScript](https://www.typescriptlang.org/) - Biar codingan lebih aman dan minim bug.
