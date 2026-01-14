@@ -56,7 +56,7 @@ export const allProjects: Project[] = [
         title: "BGES Fulfillment - ROC6 Dashboard - Automated Ticket Routing",
         description: "Sistem monitoring fulfillment layanan BGES Regional 6 yang dilengkapi dengan Automated Ticket Routing System untuk distribusi tiket otomatis dan analisis real-time.",
         date: "2024-03-20",
-        image: "/assets/img/bges_dashboard.png", // Harap tambahkan gambar ini ke public/assets/img/
+        image: "/assets/img/BGES_login.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
             "/assets/img/BGES_login.png",
             "/assets/img/BGES1.png",
@@ -123,10 +123,14 @@ export const allProjects: Project[] = [
         title: "Jejak Kita (Family Tree Platform)",
         description: "Platform silsilah keluarga digital enterprise. Visualisasi pohon keluarga interaktif, pemetaan geografis, dan analisis demografis mendalam.",
         date: "2024-04-10",
-        image: "/assets/img/jejak_kita.png", // Harap tambahkan gambar ini ke public/assets/img/
+        image: "/assets/img/JJK_login.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
             "/assets/img/JJK_login.png",
             "/assets/img/JJK1.png",
+            "/assets/img/JJK2.png",
+            "/assets/img/JJK3.png",
+            "/assets/img/JJK4.png",
+            "/assets/img/JJK5.png"
         ],
         tags: ["Vue.js 3", "Python (FastAPI)", "Leaflet.js", "D3.js", "MongoDB"],
         // repositoryUrl: "", // Private

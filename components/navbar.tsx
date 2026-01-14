@@ -36,8 +36,7 @@ export const Navbar = () => {
                     Just0rdinaryGuy<span className="text-primary">.dev</span>
                 </Link>
                 <div className="flex items-center space-x-4">
-                    <Link href="#about" className="text-sm font-medium hover:text-primary transition-colors">Tentang</Link>
-                    <Link href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">Portofolio</Link>
+
                     <Button asChild variant="outline" size="sm" className="rounded-full">
                         <Link href="/resume">Resume</Link>
                     </Button>

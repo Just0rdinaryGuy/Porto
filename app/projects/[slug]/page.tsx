@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowLeft, Github, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { ProjectCarousel } from "@/components/project-carousel";
 import Image from "next/image";
 
 export const generateStaticParams = async () =>
@@ -35,9 +36,11 @@ export default async function ProjectLayout({ params }: { params: Promise<{ slug
                 <header className="mb-10 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">{project.title}</h1>
                     <p className="text-zinc-500 mb-6">{format(parseISO(project.date), "LLLL d, yyyy")}</p>
-                    <div className="relative aspect-video w-full overflow-hidden rounded-xl border border-zinc-800 mb-8">
-                        <Image src={project.image} alt={project.title} fill className="object-cover" />
-                    </div>
+
+                    <ProjectCarousel
+                        images={project.gallery && project.gallery.length > 0 ? project.gallery : [project.image]}
+                        title={project.title}
+                    />
 
                     <div className="flex flex-wrap justify-center gap-2 mb-8">
                         {project.tags.map(tag => (
@@ -60,24 +63,6 @@ export default async function ProjectLayout({ params }: { params: Promise<{ slug
                 </header>
 
                 <div className="prose prose-invert prose-zinc max-w-none mb-12" dangerouslySetInnerHTML={{ __html: project.content || '' }} />
-
-                {project.gallery && (
-                    <div className="pt-8 border-t border-zinc-800">
-                        <h2 className="text-2xl font-bold mb-6">Project Gallery</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {project.gallery.map((img, index) => (
-                                <div key={index} className="relative aspect-video overflow-hidden rounded-xl border border-zinc-800 group">
-                                    <Image
-                                        src={img}
-                                        alt={`${project.title} screenshot ${index + 1}`}
-                                        fill
-                                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                    />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
             </div>
         </article>
     );
