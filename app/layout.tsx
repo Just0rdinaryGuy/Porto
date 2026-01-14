@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Excel Prima Bara (Just0rdinaryGuy) - Portofolio",
   description: "Portofolio Junior Developer Professional",
   icons: {
-    icon: "data:image/x-icon;base64,AA",
+    icon: "https://github.com/favicon.ico",
   },
 };
 
