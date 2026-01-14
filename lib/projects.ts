@@ -56,7 +56,7 @@ export const allProjects: Project[] = [
         slug: "bges-fulfillment",
         title: "BGES Fulfillment - ROC6 Dashboard - Automated Ticket Routing",
         description: "Sistem monitoring fulfillment layanan BGES Regional 6 yang dilengkapi dengan Automated Ticket Routing System untuk distribusi tiket otomatis dan analisis real-time.",
-        date: "2024-03-20",
+        date: "2025-11-05",
         image: "/assets/img/BGES_login.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
             "/assets/img/BGES_login.png",
@@ -123,7 +123,7 @@ export const allProjects: Project[] = [
         slug: "jejak-kita",
         title: "Jejak Kita (Family Tree Platform)",
         description: "Platform silsilah keluarga digital enterprise. Visualisasi pohon keluarga interaktif, pemetaan geografis, dan analisis demografis mendalam.",
-        date: "2024-04-10",
+        date: "2025-12-26",
         image: "/assets/img/JJK_login.png", // Harap tambahkan gambar ini ke public/assets/img/
         gallery: [
             "/assets/img/JJK_login.png",
