@@ -38,12 +38,15 @@ export default function ResumePage() {
                             padding: 0,
                             margin: 0
                         }}
-                        src="https://www.canva.com/design/DAG-VqD8Agk/gDns888m1zZacLwfhPFUuw/view?embed"
+                        src="https://www.canva.com/design/DAG-u5s5SPw/FO2v-BGZnjcWrygfcFvGng/view?embed"
                         allowFullScreen
                         allow="fullscreen"
                     >
                     </iframe>
                 </div>
+                <a href="https://www.canva.com/design/DAG-u5s5SPw/FO2v-BGZnjcWrygfcFvGng/view?utm_content=DAG-u5s5SPw&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener" className="block text-center mt-4 text-muted-foreground hover:text-primary transition-colors">
+                    ExceL Prima bara
+                </a>
 
             </div>
         </main>

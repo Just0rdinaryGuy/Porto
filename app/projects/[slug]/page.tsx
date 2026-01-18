@@ -28,7 +28,7 @@ export default async function ProjectLayout({ params }: { params: Promise<{ slug
             <div className="max-w-3xl mx-auto">
                 <div className="mb-8">
                     <Button variant="ghost" asChild className="pl-0 hover:bg-transparent hover:text-primary">
-                        <Link href="/"><ArrowLeft className="mr-2 h-4 w-4" /> Kembali ke Portofolio</Link>
+                        <Link href="/"><ArrowLeft className="mr-2 h-4 w-4" /> Kembali</Link>
                     </Button>
                 </div>
 
